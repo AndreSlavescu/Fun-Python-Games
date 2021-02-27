@@ -12,6 +12,14 @@ while continuegame:
     break
   opponent = input("input either S,P, or R: ")
   you = random.randint(0,2)
+  
+  if you == 0:
+    print("I chose: R")
+  elif you == 1:
+    print("I chose: P")
+  elif you == 2:
+    print("I chose: S")
+  print(f"You chose: {opponent}")
 
   if you == 0 and opponent == "S":
     youC += 1
