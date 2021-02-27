@@ -2,11 +2,10 @@ import random
 
 youC = 0
 oppC = 0
-diff = youC - oppC
 continuegame = True
 
 while continuegame:
-  continueplay = input("enter play to continue or stop to stop")
+  continueplay = input("enter play to continue or stop to stop: ")
   if continueplay == "play":
     pass
   else:
@@ -26,6 +25,8 @@ while continuegame:
     youC += 1
   elif you == 2 and opponent == "R":
     oppC += 1
+   
+diff = youC - oppC
 
 if diff > 0:
   print(f"you win by {diff} games")
