@@ -1,5 +1,4 @@
 import random
-import sys
 
 youC = 0
 oppC = 0
